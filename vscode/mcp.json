@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "humanitarian-data": {
+      "command": "npx",
+      "args": ["tsx", "src/server.ts"]
+    }
+  }
+}
