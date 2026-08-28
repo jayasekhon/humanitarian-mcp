@@ -1,0 +1,3078 @@
+[
+  {
+    "id": "cbpf_contributions_2026",
+    "title": "CBPF Contributions 2026",
+    "description": "Donor-level contributions to UN Country-Based Pooled Funds for fiscal year 2026, covering all CBPFs globally (not Sudan-only — includes funds like Colombia's RhPF-LAC). Each row is one donor's contribution amount and percentage share to a specific pooled fund.",
+    "keywords": [],
+    "source_file": "CBPF Contributions 2026.csv",
+    "csv_path": "data/csv/cbpf_contributions_2026.csv",
+    "row_count": 266,
+    "columns": [
+      {
+        "name": "PooledFundName",
+        "inferred_type": "text",
+        "sample_values": [
+          "Colombia (RhPF-LAC)",
+          "Sudan",
+          "Syria",
+          "DRC",
+          "Haiti (RhPF-LAC)"
+        ]
+      },
+      {
+        "name": "PooledFundId",
+        "inferred_type": "number",
+        "sample_values": [
+          "87",
+          "15",
+          "62",
+          "24",
+          "88"
+        ]
+      },
+      {
+        "name": "FiscalYear",
+        "inferred_type": "number",
+        "sample_values": [
+          "2026",
+          "2026",
+          "2026",
+          "2026",
+          "2026"
+        ]
+      },
+      {
+        "name": "DonorName",
+        "inferred_type": "text",
+        "sample_values": [
+          "EUROPEAN UNION",
+          "Isle of Man",
+          "United States",
+          "UN Foundation/UN Partnership Office",
+          "UN Foundation/UN Partnership Office"
+        ]
+      },
+      {
+        "name": "DonorCode",
+        "inferred_type": "number",
+        "sample_values": [
+          "105",
+          "1037",
+          "102",
+          "131",
+          "131"
+        ]
+      },
+      {
+        "name": "GMSDonorId",
+        "inferred_type": "number",
+        "sample_values": [
+          "105",
+          "206",
+          "102",
+          "132",
+          "132"
+        ]
+      },
+      {
+        "name": "GMSDonorName",
+        "inferred_type": "text",
+        "sample_values": [
+          "European Commission",
+          "Isle of Man",
+          "United States",
+          "Private donations (through UNF)",
+          "Private donations (through UNF)"
+        ]
+      },
+      {
+        "name": "ContributionAmt",
+        "inferred_type": "number",
+        "sample_values": [
+          "571428.57",
+          "467646.70",
+          "260000000.00",
+          "20745.99",
+          "1363.61"
+        ]
+      },
+      {
+        "name": "ContributionPercent",
+        "inferred_type": "number",
+        "sample_values": [
+          "0.28000",
+          "0.10000",
+          "79.69000",
+          "0.01000",
+          "0.00000"
+        ]
+      }
+    ],
+    "last_built": "2026-08-28T14:26:13.740Z"
+  },
+  {
+    "id": "cerf_projects_2026_2026_08_12",
+    "title": "CERF Projects 2026_2026-08-12",
+    "description": "CERF (Central Emergency Response Fund) project allocations for 2026 across all countries and emergency types, including project status, approved amounts, implementing agency, sector, and planned beneficiary breakdowns. Many rows are still Under Review with placeholder values, so filter on allocationStatus or projectStatus before treating figures as final.",
+    "keywords": [],
+    "source_file": "CERF Projects 2026_2026-08-12.csv",
+    "csv_path": "data/csv/cerf_projects_2026_2026_08_12.csv",
+    "row_count": 126,
+    "columns": [
+      {
+        "name": "tableName",
+        "inferred_type": "text",
+        "sample_values": [
+          "P",
+          "P",
+          "P",
+          "P",
+          "P"
+        ]
+      },
+      {
+        "name": "allocationStatus",
+        "inferred_type": "text",
+        "sample_values": [
+          "Under Review",
+          "Under Review",
+          "Under Review",
+          "Under Review",
+          "Under Review"
+        ]
+      },
+      {
+        "name": "projectSummary",
+        "inferred_type": "text",
+        "sample_values": [
+          "To be determined",
+          "To be determined",
+          "To be determined",
+          "To be determined",
+          "To be determined"
+        ]
+      },
+      {
+        "name": "projectID",
+        "inferred_type": "text",
+        "sample_values": [
+          "40286",
+          "40287",
+          "40288",
+          "40289",
+          "40290"
+        ]
+      },
+      {
+        "name": "year",
+        "inferred_type": "text",
+        "sample_values": [
+          "2026",
+          "2026",
+          "2026",
+          "2026",
+          "2026"
+        ]
+      },
+      {
+        "name": "projectCode",
+        "inferred_type": "text",
+        "sample_values": [
+          "CERF-LBN-26-RR-1552(TBD)",
+          "CERF-SSD-26-RR-1556(TBD)",
+          "CERF-ETH-26-RR-1557(TBD)",
+          "CERF-CAF-26-RR-1559(TBD)",
+          "CERF-RWA-26-RR-1560(TBD)"
+        ]
+      },
+      {
+        "name": "projectTitle",
+        "inferred_type": "text",
+        "sample_values": [
+          "To be determined",
+          "To be determined",
+          "To be determined",
+          "To be determined",
+          "To be determined"
+        ]
+      },
+      {
+        "name": "applicationID",
+        "inferred_type": "text",
+        "sample_values": [
+          "1552",
+          "1556",
+          "1557",
+          "1559",
+          "1560"
+        ]
+      },
+      {
+        "name": "applicationCode",
+        "inferred_type": "text",
+        "sample_values": [
+          "CERF-LBN-26-RR-1552",
+          "CERF-SSD-26-RR-1556",
+          "CERF-ETH-26-RR-1557",
+          "CERF-CAF-26-RR-1559",
+          "CERF-RWA-26-RR-1560"
+        ]
+      },
+      {
+        "name": "windowID",
+        "inferred_type": "text",
+        "sample_values": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "3"
+        ]
+      },
+      {
+        "name": "windowFullName",
+        "inferred_type": "text",
+        "sample_values": [
+          "Rapid Response",
+          "Rapid Response",
+          "Rapid Response",
+          "Rapid Response",
+          "Rapid Response"
+        ]
+      },
+      {
+        "name": "countryID",
+        "inferred_type": "text",
+        "sample_values": [
+          "52",
+          "91",
+          "34",
+          "20",
+          "72"
+        ]
+      },
+      {
+        "name": "countryName",
+        "inferred_type": "text",
+        "sample_values": [
+          "Lebanon",
+          "South Sudan",
+          "Ethiopia",
+          "Central African Republic",
+          "Rwanda"
+        ]
+      },
+      {
+        "name": "countryCode",
+        "inferred_type": "text",
+        "sample_values": [
+          "LBN",
+          "SSD",
+          "ETH",
+          "CAF",
+          "RWA"
+        ]
+      },
+      {
+        "name": "agencyID",
+        "inferred_type": "text",
+        "sample_values": [
+          "-1",
+          "-1",
+          "-1",
+          "-1",
+          "-1"
+        ]
+      },
+      {
+        "name": "agencyName",
+        "inferred_type": "text",
+        "sample_values": [
+          "To be determined",
+          "To be determined",
+          "To be determined",
+          "To be determined",
+          "To be determined"
+        ]
+      },
+      {
+        "name": "agencyShortName",
+        "inferred_type": "text",
+        "sample_values": [
+          "To be determined",
+          "To be determined",
+          "To be determined",
+          "To be determined",
+          "To be determined"
+        ]
+      },
+      {
+        "name": "implementingAgencyID",
+        "inferred_type": "text",
+        "sample_values": [
+          "-1",
+          "-1",
+          "-1",
+          "-1",
+          "-1"
+        ]
+      },
+      {
+        "name": "implementingAgencyName",
+        "inferred_type": "text",
+        "sample_values": [
+          "To be determined",
+          "To be determined",
+          "To be determined",
+          "To be determined",
+          "To be determined"
+        ]
+      },
+      {
+        "name": "emergencyTypeID",
+        "inferred_type": "text",
+        "sample_values": [
+          "29",
+          "30",
+          "32",
+          "9",
+          "30"
+        ]
+      },
+      {
+        "name": "emergencyTypeName",
+        "inferred_type": "text",
+        "sample_values": [
+          "Displacement/Migration",
+          "Ebola",
+          "Refugees",
+          "Cholera",
+          "Ebola"
+        ]
+      },
+      {
+        "name": "projectsectors",
+        "inferred_type": "text",
+        "sample_values": [
+          "{\"\"projectsectors\"\":[{\"\"tableName\"\":\"\"P\"",
+          "{\"\"projectsectors\"\":[{\"\"tableName\"\":\"\"P\"",
+          "{\"\"projectsectors\"\":[{\"\"tableName\"\":\"\"P\"",
+          "{\"\"projectsectors\"\":[{\"\"tableName\"\":\"\"P\"",
+          "{\"\"projectsectors\"\":[{\"\"tableName\"\":\"\"P\""
+        ]
+      },
+      {
+        "name": "totalAmountApproved",
+        "inferred_type": "text",
+        "sample_values": [
+          "\"projectID\"\":40286",
+          "\"projectID\"\":40287",
+          "\"projectID\"\":40288",
+          "\"projectID\"\":40289",
+          "\"projectID\"\":40290"
+        ]
+      },
+      {
+        "name": "projectSectorName",
+        "inferred_type": "text",
+        "sample_values": [
+          "\"projectCode\"\":\"\"CERF-LBN-26-RR-1552(TBD)\"",
+          "\"projectCode\"\":\"\"CERF-SSD-26-RR-1556(TBD)\"",
+          "\"projectCode\"\":\"\"CERF-ETH-26-RR-1557(TBD)\"",
+          "\"projectCode\"\":\"\"CERF-CAF-26-RR-1559(TBD)\"",
+          "\"projectCode\"\":\"\"CERF-RWA-26-RR-1560(TBD)\""
+        ]
+      },
+      {
+        "name": "beneficiaryType",
+        "inferred_type": "text",
+        "sample_values": [
+          "\"sectorID\"\":-1",
+          "\"sectorID\"\":-1",
+          "\"sectorID\"\":-1",
+          "\"sectorID\"\":-1",
+          "\"sectorID\"\":-1"
+        ]
+      },
+      {
+        "name": "projectgrouping",
+        "inferred_type": "text",
+        "sample_values": [
+          "\"sectorName\"\":\"\"To be determined\"",
+          "\"sectorName\"\":\"\"To be determined\"",
+          "\"sectorName\"\":\"\"To be determined\"",
+          "\"sectorName\"\":\"\"To be determined\"",
+          "\"sectorName\"\":\"\"To be determined\""
+        ]
+      },
+      {
+        "name": "projectStatus",
+        "inferred_type": "text",
+        "sample_values": [
+          "\"cERFSectorName\"\":\"\"To be determined\"",
+          "\"cERFSectorName\"\":\"\"To be determined\"",
+          "\"cERFSectorName\"\":\"\"To be determined\"",
+          "\"cERFSectorName\"\":\"\"To be determined\"",
+          "\"cERFSectorName\"\":\"\"To be determined\""
+        ]
+      },
+      {
+        "name": "dateUSGSignature",
+        "inferred_type": "text",
+        "sample_values": [
+          "\"sectorAmount\"\":12000000.0",
+          "\"sectorAmount\"\":6000000.0",
+          "\"sectorAmount\"\":6050000.0",
+          "\"sectorAmount\"\":1000000.0",
+          "\"sectorAmount\"\":2000000.0"
+        ]
+      },
+      {
+        "name": "emergencyGroupName",
+        "inferred_type": "text",
+        "sample_values": [
+          "\"clusterName\"\":\"\"To be determined\"",
+          "\"clusterName\"\":\"\"To be determined\"",
+          "\"clusterName\"\":\"\"To be determined\"",
+          "\"clusterName\"\":\"\"To be determined\"",
+          "\"clusterName\"\":\"\"To be determined\""
+        ]
+      },
+      {
+        "name": "emergencyCategoryName",
+        "inferred_type": "text",
+        "sample_values": [
+          "\"iascSectorname\"\":\"\"To be determined\"\"}]}",
+          "\"iascSectorname\"\":\"\"To be determined\"\"}]}",
+          "\"iascSectorname\"\":\"\"To be determined\"\"}]}",
+          "\"iascSectorname\"\":\"\"To be determined\"\"}]}",
+          "\"iascSectorname\"\":\"\"To be determined\"\"}]}"
+        ]
+      },
+      {
+        "name": "regionName",
+        "inferred_type": "text",
+        "sample_values": [
+          "12000000",
+          "6000000",
+          "6050000",
+          "1000000",
+          "2000000"
+        ]
+      },
+      {
+        "name": "subRegionName",
+        "inferred_type": "text",
+        "sample_values": [
+          "To be determined",
+          "To be determined",
+          "To be determined",
+          "To be determined",
+          "To be determined"
+        ]
+      },
+      {
+        "name": "continentName",
+        "inferred_type": "text",
+        "sample_values": [
+          "Host communities;Refugees;Returnees;Internally displaced persons",
+          "Host communities;Refugees;Returnees;Internally displaced persons",
+          "Host communities;Refugees",
+          "Host communities;Returnees;Internally displaced persons",
+          "Host communities;Refugees;Returnees;Internally displaced persons;Other affected persons"
+        ]
+      },
+      {
+        "name": "projectTypeName",
+        "inferred_type": "text",
+        "sample_values": [
+          "{\"\"projectgrouping\"\":[]}",
+          "{\"\"projectgrouping\"\":[]}",
+          "{\"\"projectgrouping\"\":[]}",
+          "{\"\"projectgrouping\"\":[]}",
+          "{\"\"projectgrouping\"\":[]}"
+        ]
+      },
+      {
+        "name": "projectcapcode",
+        "inferred_type": "text",
+        "sample_values": [
+          "Under Review",
+          "Under Review",
+          "Under Review",
+          "Under Review",
+          "Under Review"
+        ]
+      },
+      {
+        "name": "ProjectCountry",
+        "inferred_type": "text",
+        "sample_values": [
+          "2026-06-14T00:00:00",
+          "2026-06-23T00:00:00",
+          "2026-07-07T00:00:00",
+          "2026-07-12T00:00:00",
+          "2026-07-09T00:00:00"
+        ]
+      },
+      {
+        "name": "emergencyGroupForGlobalReporting",
+        "inferred_type": "text",
+        "sample_values": [
+          "Internal strife",
+          "Meteorological",
+          "Biological (human disease outbreak and other health emergency)",
+          "Meteorological",
+          "\"projectCode\"\":\"\"CERF-MDG-24-RR-IOM-34545\""
+        ]
+      },
+      {
+        "name": "plannedGirls",
+        "inferred_type": "text",
+        "sample_values": [
+          "Man-made",
+          "Hydrological and Climatological",
+          "Natural Disaster",
+          "Hydrological and Climatological",
+          "\"sectorID\"\":2"
+        ]
+      },
+      {
+        "name": "plannedBoys",
+        "inferred_type": "text",
+        "sample_values": [
+          "Western Asia",
+          "Eastern Africa",
+          "Middle Africa",
+          "\"sectorName\"\":\"\"Camp Coordination and Camp Management\"",
+          "United Nations Children’s Fund"
+        ]
+      },
+      {
+        "name": "plannedChildren",
+        "inferred_type": "text",
+        "sample_values": [
+          "Western Asia",
+          "Eastern Africa",
+          "Eastern Africa",
+          "Middle Africa",
+          "Eastern Africa"
+        ]
+      },
+      {
+        "name": "plannedWomen",
+        "inferred_type": "text",
+        "sample_values": [
+          "Asia",
+          "Eastern Africa",
+          "Africa",
+          "Africa",
+          "Eastern Africa"
+        ]
+      },
+      {
+        "name": "plannedMen",
+        "inferred_type": "text",
+        "sample_values": [
+          "HRP",
+          "Africa",
+          "HRP",
+          "HRP",
+          "Africa"
+        ]
+      },
+      {
+        "name": "plannedFemale",
+        "inferred_type": "text",
+        "sample_values": [
+          "{\"\"projectcapcode\"\":[]}",
+          "HRP",
+          "{\"\"projectcapcode\"\":[]}",
+          "{\"\"projectcapcode\"\":[]}",
+          "HRP"
+        ]
+      },
+      {
+        "name": "plannedMale",
+        "inferred_type": "text",
+        "sample_values": [
+          "{\"\"ProjectCountry\"\":[]}",
+          "{\"\"projectcapcode\"\":[]}",
+          "{\"\"ProjectCountry\"\":[]}",
+          "{\"\"ProjectCountry\"\":[]}",
+          "{\"\"projectcapcode\"\":[]}"
+        ]
+      },
+      {
+        "name": "plannedAdults",
+        "inferred_type": "text",
+        "sample_values": [
+          "{\"\"ProjectCountry\"\":[]}",
+          "Conflict-related",
+          "Disease Outbreak",
+          "{\"\"ProjectCountry\"\":[]}",
+          "\"projectID\"\":34545"
+        ]
+      },
+      {
+        "name": "totalPeoplePlanned",
+        "inferred_type": "text",
+        "sample_values": [
+          "Disease Outbreak",
+          "Disease Outbreak",
+          "\"projectCode\"\":\"\"CERF-MDG-24-RR-IOM-34545\"",
+          "\"sectorName\"\":\"\"Water",
+          "\"sectorID\"\":32"
+        ]
+      },
+      {
+        "name": "projectStartDate",
+        "inferred_type": "text",
+        "sample_values": [
+          "\"sectorID\"\":17",
+          "Sanitation and Hygiene\"",
+          "\"sectorName\"\":\"\"Health\"",
+          "{\"\"projectgrouping\"\":[]}",
+          "\"cERFSectorName\"\":\"\"Food Aid\""
+        ]
+      },
+      {
+        "name": "projectEndDate",
+        "inferred_type": "text",
+        "sample_values": [
+          "\"sectorName\"\":\"\"Shelter and Non-Food Items\"",
+          "\"cERFSectorName\"\":\"\"Water",
+          "\"cERFSectorName\"\":\"\"Sexual and Reproductive Health\"",
+          "Funded",
+          "\"sectorAmount\"\":599998.21"
+        ]
+      },
+      {
+        "name": "letterSentToAgencyDate",
+        "inferred_type": "text",
+        "sample_values": [
+          "\"cERFSectorName\"\":\"\"Shelter\"",
+          "Sanitation and Hygiene\"",
+          "\"sectorAmount\"\":90000.0",
+          "2026-01-29T00:00:00",
+          "\"clusterName\"\":\"\"Food Aid\""
+        ]
+      },
+      {
+        "name": "disbursementDate",
+        "inferred_type": "text",
+        "sample_values": [
+          "\"sectorAmount\"\":300006.0",
+          "\"sectorAmount\"\":450000.0",
+          "\"clusterName\"\":\"\"Health\"",
+          "Natural Disaster",
+          "\"iascSectorname\"\":\"\"Food Security\"\"}]}"
+        ]
+      },
+      {
+        "name": "projectTypeID",
+        "inferred_type": "text",
+        "sample_values": [
+          "\"clusterName\"\":\"\"Shelter and Non-Food Items\"",
+          "\"clusterName\"\":\"\"Water",
+          "\"iascSectorname\"\":\"\"Health\"\"}]}",
+          "Natural Disaster",
+          "749997.76"
+        ]
+      },
+      {
+        "name": "cerfGenderMarkerID",
+        "inferred_type": "text",
+        "sample_values": [
+          "\"iascSectorname\"\":\"\"Emergency Shelter and NFI\"\"}]}",
+          "Sanitation and Hygiene\"",
+          "300000",
+          "Eastern Africa",
+          "Common Services;Food Assistance"
+        ]
+      },
+      {
+        "name": "cerfGenderMarkerName",
+        "inferred_type": "text",
+        "sample_values": [
+          "420000",
+          "\"iascSectorname\"\":\"\"Water Sanitation Hygiene\"\"}",
+          "Health;Protection",
+          "Eastern Africa",
+          "Other affected persons"
+        ]
+      },
+      {
+        "name": "genderMarkerType",
+        "inferred_type": "text",
+        "sample_values": [
+          "Camp Coordination and Camp Management;Shelter and Non-Food Items",
+          "{\"\"tableName\"\":\"\"P\"",
+          "Other affected persons",
+          "Africa",
+          "{\"\"projectgrouping\"\":[]}"
+        ]
+      }
+    ],
+    "last_built": "2026-08-28T14:26:13.792Z"
+  },
+  {
+    "id": "sudan_idp_admin_0_2026_08_13",
+    "title": "Sudan - IDP Admin 0_2026-08-13",
+    "description": "Country-level (admin0) counts of internally displaced people in Sudan by reporting round, with displacement reason and the origin state (admin1) each IDP group fled from. This is the aggregate national figure, not broken down by current location.",
+    "keywords": [],
+    "source_file": "Sudan - IDP Admin 0_2026-08-13.csv",
+    "csv_path": "data/csv/sudan_idp_admin_0_2026_08_13.csv",
+    "row_count": 108,
+    "columns": [
+      {
+        "name": "operation",
+        "inferred_type": "text",
+        "sample_values": [
+          "Armed Clashes in Sudan (Overview)",
+          "Armed Clashes in Sudan (Overview)",
+          "Armed Clashes in Sudan (Overview)",
+          "Armed Clashes in Sudan (Overview)",
+          "Armed Clashes in Sudan (Overview)"
+        ]
+      },
+      {
+        "name": "admin0Name",
+        "inferred_type": "text",
+        "sample_values": [
+          "Sudan",
+          "Sudan",
+          "Sudan",
+          "Sudan",
+          "Sudan"
+        ]
+      },
+      {
+        "name": "admin0Pcode",
+        "inferred_type": "text",
+        "sample_values": [
+          "SDN",
+          "SDN",
+          "SDN",
+          "SDN",
+          "SDN"
+        ]
+      },
+      {
+        "name": "numPresentIdpInd",
+        "inferred_type": "number",
+        "sample_values": [
+          "218388",
+          "6938",
+          "5046",
+          "207963",
+          "358685"
+        ]
+      },
+      {
+        "name": "reportingDate",
+        "inferred_type": "date",
+        "sample_values": [
+          "2026-01-31T00:00:00",
+          "2026-01-31T00:00:00",
+          "2026-01-31T00:00:00",
+          "2026-01-31T00:00:00",
+          "2026-01-31T00:00:00"
+        ]
+      },
+      {
+        "name": "yearReportingDate",
+        "inferred_type": "number",
+        "sample_values": [
+          "2026",
+          "2026",
+          "2026",
+          "2026",
+          "2026"
+        ]
+      },
+      {
+        "name": "monthReportingDate",
+        "inferred_type": "number",
+        "sample_values": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "name": "roundNumber",
+        "inferred_type": "number",
+        "sample_values": [
+          "32",
+          "32",
+          "32",
+          "32",
+          "32"
+        ]
+      },
+      {
+        "name": "displacementReason",
+        "inferred_type": "text",
+        "sample_values": [
+          "Conflict",
+          "Conflict",
+          "Conflict",
+          "Conflict",
+          "Conflict"
+        ]
+      },
+      {
+        "name": "numberMales",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "numberFemales",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "idpOriginAdmin1Name",
+        "inferred_type": "text",
+        "sample_values": [
+          "North Kordofan",
+          "Kassala",
+          "Northern",
+          "East Darfur",
+          "West Darfur"
+        ]
+      },
+      {
+        "name": "idpOriginAdmin1Pcode",
+        "inferred_type": "text",
+        "sample_values": [
+          "SD13",
+          "SD11",
+          "SD17",
+          "SD05",
+          "SD04"
+        ]
+      },
+      {
+        "name": "assessmentType",
+        "inferred_type": "text",
+        "sample_values": [
+          "BA",
+          "BA",
+          "BA",
+          "BA",
+          "BA"
+        ]
+      }
+    ],
+    "last_built": "2026-08-28T14:26:13.796Z"
+  },
+  {
+    "id": "sudan_jiaf_humanitarian_needs_and_response_plan_2026__cluster_pin",
+    "title": "Sudan - JIAF Humanitarian Needs and Response Plan 2026 — Cluster PIN",
+    "description": "Admin2-level People in Need (PiN) figures for Sudan's 2026 HRP, broken down by cluster (Health, Nutrition, Education, Food Security, Protection, etc.) alongside total population and population group per location.",
+    "keywords": [],
+    "source_file": "Sudan - JIAF Humanitarian Needs and Response Plan 2026.xlsx",
+    "csv_path": "data/csv/sudan_jiaf_humanitarian_needs_and_response_plan_2026__cluster_pin.csv",
+    "row_count": 754,
+    "columns": [
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Location",
+          "Admin 1",
+          "Khartoum",
+          "Khartoum",
+          "Khartoum"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Admin 1 P-Code",
+          "SD01",
+          "SD01",
+          "SD01",
+          "SD01"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Admin 2",
+          "Jebel Awlia",
+          "Um Bada",
+          "Bahri",
+          "Sharg An Neel"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Admin 2 P-Code",
+          "SD01001",
+          "SD01002",
+          "SD01003",
+          "SD01004"
+        ]
+      },
+      {
+        "name": "47",
+        "inferred_type": "text",
+        "sample_values": [
+          "Populaton",
+          "Total Population",
+          "20",
+          "49",
+          "25"
+        ]
+      },
+      {
+        "name": "704",
+        "inferred_type": "text",
+        "sample_values": [
+          "Population Group",
+          "152",
+          "846",
+          "227",
+          "213"
+        ]
+      },
+      {
+        "name": "781",
+        "inferred_type": "text",
+        "sample_values": [
+          "Clusters' PiN (Number)",
+          "Site Management",
+          "IDPs",
+          "IDPs",
+          "IDPs"
+        ]
+      },
+      {
+        "name": "-",
+        "inferred_type": "text",
+        "sample_values": [
+          "-",
+          "Education",
+          "-",
+          "-",
+          "-"
+        ]
+      },
+      {
+        "name": "3",
+        "inferred_type": "text",
+        "sample_values": [
+          "-",
+          "Food Security and Livlihoods",
+          "4",
+          "8",
+          "3"
+        ]
+      },
+      {
+        "name": "975",
+        "inferred_type": "text",
+        "sample_values": [
+          "-",
+          "Health",
+          "383",
+          "649",
+          "445"
+        ]
+      },
+      {
+        "name": "351",
+        "inferred_type": "text",
+        "sample_values": [
+          "-",
+          "Nutrition",
+          "10",
+          "34",
+          "14"
+        ]
+      },
+      {
+        "name": "10",
+        "inferred_type": "text",
+        "sample_values": [
+          "-",
+          "Protection",
+          "195",
+          "110",
+          "826"
+        ]
+      },
+      {
+        "name": "462",
+        "inferred_type": "text",
+        "sample_values": [
+          "-",
+          "Shelter NFI",
+          "15",
+          "38",
+          "11"
+        ]
+      },
+      {
+        "name": "976",
+        "inferred_type": "text",
+        "sample_values": [
+          "-",
+          "WASH",
+          "497",
+          "332",
+          "260"
+        ]
+      },
+      {
+        "name": "28",
+        "inferred_type": "text",
+        "sample_values": [
+          "RCF",
+          "3",
+          "8",
+          "4",
+          "4"
+        ]
+      },
+      {
+        "name": "872",
+        "inferred_type": "text",
+        "sample_values": [
+          "GBV",
+          "406",
+          "424",
+          "263",
+          "768"
+        ]
+      },
+      {
+        "name": "672",
+        "inferred_type": "text",
+        "sample_values": [
+          "Mine Action",
+          "10",
+          "24",
+          "12",
+          "8"
+        ]
+      },
+      {
+        "name": "20",
+        "inferred_type": "text",
+        "sample_values": [
+          "Child Protection",
+          "076",
+          "574",
+          "104",
+          "464"
+        ]
+      },
+      {
+        "name": "986",
+        "inferred_type": "text",
+        "sample_values": [
+          "Severity",
+          "4",
+          "-",
+          "6",
+          "8"
+        ]
+      },
+      {
+        "name": "071",
+        "inferred_type": "text",
+        "sample_values": [
+          "Preliminary PiN",
+          "836",
+          "44",
+          "307",
+          "549"
+        ]
+      },
+      {
+        "name": "8",
+        "inferred_type": "text",
+        "sample_values": [
+          "Final PiN with refugee",
+          "15",
+          "861",
+          "14",
+          "21"
+        ]
+      },
+      {
+        "name": "356",
+        "inferred_type": "text",
+        "sample_values": [
+          "Evidence & Comments",
+          "497",
+          "-",
+          "826",
+          "696"
+        ]
+      },
+      {
+        "name": "947",
+        "inferred_type": "text",
+        "sample_values": [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      },
+      {
+        "name": "22",
+        "inferred_type": "text",
+        "sample_values": [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      },
+      {
+        "name": "420",
+        "inferred_type": "number",
+        "sample_values": [
+          "4",
+          "1",
+          "4",
+          "3",
+          "1"
+        ]
+      },
+      {
+        "name": "698",
+        "inferred_type": "number",
+        "sample_values": [
+          "3",
+          "4",
+          "4",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "name": "15",
+        "inferred_type": "text",
+        "sample_values": [
+          "4",
+          "44",
+          "3",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "name": "363",
+        "inferred_type": "text",
+        "sample_values": [
+          "15",
+          "861",
+          "14",
+          "21",
+          "96"
+        ]
+      },
+      {
+        "name": "218",
+        "inferred_type": "text",
+        "sample_values": [
+          "497",
+          "44",
+          "826",
+          "696",
+          "314"
+        ]
+      },
+      {
+        "name": "27",
+        "inferred_type": "text",
+        "sample_values": [
+          "15",
+          "861",
+          "14",
+          "21",
+          "96"
+        ]
+      },
+      {
+        "name": "092",
+        "inferred_type": "text",
+        "sample_values": [
+          "497",
+          "No",
+          "826",
+          "696",
+          "314"
+        ]
+      },
+      {
+        "name": "138",
+        "inferred_type": "text",
+        "sample_values": [
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ]
+      },
+      {
+        "name": "882",
+        "inferred_type": "text",
+        "sample_values": [
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ]
+      },
+      {
+        "name": "066",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "-",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "-",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "-",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "32",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "756",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "543",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "33",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "699",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "770",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      }
+    ],
+    "last_built": "2026-08-28T14:26:14.189Z"
+  },
+  {
+    "id": "sudan_jiaf_humanitarian_needs_and_response_plan_2026__cluster_severity",
+    "title": "Sudan - JIAF Humanitarian Needs and Response Plan 2026 — Cluster Severity",
+    "description": "Admin2-level sectoral severity scores for Sudan's 2026 HRP, one score per cluster per location, indicating how severe humanitarian needs are in each sector rather than raw need counts.",
+    "keywords": [],
+    "source_file": "Sudan - JIAF Humanitarian Needs and Response Plan 2026.xlsx",
+    "csv_path": "data/csv/sudan_jiaf_humanitarian_needs_and_response_plan_2026__cluster_severity.csv",
+    "row_count": 191,
+    "columns": [
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Location",
+          "Admin 1",
+          "Khartoum",
+          "Khartoum",
+          "Khartoum"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Admin 1 P-Code",
+          "SD01",
+          "SD01",
+          "SD01",
+          "SD01"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Admin 2",
+          "Jebel Awlia",
+          "Um Bada",
+          "Bahri",
+          "Sharg An Neel"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Admin 2 P-Code",
+          "SD01001",
+          "SD01002",
+          "SD01003",
+          "SD01004"
+        ]
+      },
+      {
+        "name": "Sectoral Severity",
+        "inferred_type": "text",
+        "sample_values": [
+          "Site Management",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Education",
+          "4",
+          "4",
+          "4",
+          "3"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Food Security and Livlihoods",
+          "3",
+          "3",
+          "3",
+          "3"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Health",
+          "5",
+          "4",
+          "3",
+          "5"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Nutrition",
+          "4",
+          "4",
+          "4",
+          "3"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Protection",
+          "4",
+          "3",
+          "4",
+          "3"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Shelter NFI",
+          "3",
+          "2",
+          "3",
+          "3"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "WASH",
+          "4",
+          "3",
+          "3",
+          "3"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "RCF",
+          "4",
+          "4",
+          "4",
+          "4"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "GBV",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Mine Action",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "General Protection",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Preliminary Severity based on overlap of sectoral deprivations",
+          "4",
+          "3",
+          "3",
+          "3"
+        ]
+      },
+      {
+        "name": "Humanitarian Condistions/Outcomes",
+        "inferred_type": "text",
+        "sample_values": [
+          "Life Threatening",
+          "Mortality",
+          "4",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Malnutrition",
+          "4",
+          "4",
+          "4",
+          "2"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Epidemics",
+          "3",
+          "3",
+          "3",
+          "3"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Irreversible Harm",
+          "FSLA",
+          "4",
+          "3",
+          "3"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "HR/IHL Violation",
+          "4",
+          "4",
+          "4",
+          "3"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Final Results",
+          "Final Severity",
+          "4",
+          "3",
+          "3"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Evidence & Comments",
+          "Agreement at the JIAF workshop - All conditions for severity 5 definition not met.",
+          "Agreement at the JIAF workshop - All conditions for severity 5 definition not met.",
+          "Agreement at the JIAF workshop - All conditions for severity 5 definition not met.",
+          "Agreement at the JIAF workshop - All conditions for severity 5 definition not met."
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Changes severity",
+          "D",
+          "D",
+          "D",
+          "D"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````…"
+        ]
+      }
+    ],
+    "last_built": "2026-08-28T14:26:14.220Z"
+  },
+  {
+    "id": "sudan_jiaf_humanitarian_needs_and_response_plan_2026__pin_historical_trend",
+    "title": "Sudan - JIAF Humanitarian Needs and Response Plan 2026 — PiN Historical Trend",
+    "description": "Admin1/2/3-level historical comparison showing the previous year's cluster PiN figures alongside population data, used to track how needs have changed year over year.",
+    "keywords": [],
+    "source_file": "Sudan - JIAF Humanitarian Needs and Response Plan 2026.xlsx",
+    "csv_path": "data/csv/sudan_jiaf_humanitarian_needs_and_response_plan_2026__pin_historical_trend.csv",
+    "row_count": 566,
+    "columns": [
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Location",
+          "Admin 1",
+          "Khartoum",
+          "Khartoum",
+          "Khartoum"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Admin 1 P-Code",
+          "SD01",
+          "SD01",
+          "SD01",
+          "SD01"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Admin 2",
+          "Jebel Awlia",
+          "Um Bada",
+          "Bahri",
+          "Sharg An Neel"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Admin 2 P-Code",
+          "SD01001",
+          "SD01002",
+          "SD01003",
+          "SD01004"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "date",
+        "sample_values": [
+          "Admin 3"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Admin 3 P-Code"
+        ]
+      },
+      {
+        "name": "47",
+        "inferred_type": "text",
+        "sample_values": [
+          "Populaton",
+          "Population",
+          "10",
+          "10",
+          "33"
+        ]
+      },
+      {
+        "name": "648",
+        "inferred_type": "text",
+        "sample_values": [
+          "Population Group",
+          "542",
+          "043",
+          "400",
+          "215"
+        ]
+      },
+      {
+        "name": "547",
+        "inferred_type": "text",
+        "sample_values": [
+          "Previous Year's Clusters' PiN",
+          "Site Management - Old",
+          "IDPs",
+          "IDPs",
+          "IDPs"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "Education Old",
+          "7",
+          "5",
+          "23",
+          "17"
+        ]
+      },
+      {
+        "name": "4",
+        "inferred_type": "text",
+        "sample_values": [
+          "Food Security and Livlihoods Old",
+          "380",
+          "022",
+          "380",
+          "651"
+        ]
+      },
+      {
+        "name": "650",
+        "inferred_type": "text",
+        "sample_values": [
+          "Health Old",
+          "1",
+          "1",
+          "6",
+          "4"
+        ]
+      },
+      {
+        "name": "651",
+        "inferred_type": "text",
+        "sample_values": [
+          "Nutrition Old",
+          "898",
+          "808",
+          "012",
+          "539"
+        ]
+      },
+      {
+        "name": "13",
+        "inferred_type": "text",
+        "sample_values": [
+          "Protection Old",
+          "7",
+          "7",
+          "23",
+          "17"
+        ]
+      },
+      {
+        "name": "271",
+        "inferred_type": "text",
+        "sample_values": [
+          "CP Old",
+          "464",
+          "110",
+          "647",
+          "852"
+        ]
+      },
+      {
+        "name": "937",
+        "inferred_type": "text",
+        "sample_values": [
+          "GBV Old",
+          "7",
+          "7",
+          "25",
+          "18"
+        ]
+      },
+      {
+        "name": "36",
+        "inferred_type": "text",
+        "sample_values": [
+          "Mine Action Old",
+          "907",
+          "532",
+          "050",
+          "911"
+        ]
+      },
+      {
+        "name": "736",
+        "inferred_type": "text",
+        "sample_values": [
+          "Shelter NFI Old",
+          "894",
+          "469",
+          "2",
+          "1"
+        ]
+      },
+      {
+        "name": "746",
+        "inferred_type": "text",
+        "sample_values": [
+          "WASH Old",
+          "9",
+          "7",
+          "470",
+          "610"
+        ]
+      },
+      {
+        "name": "28",
+        "inferred_type": "text",
+        "sample_values": [
+          "Current Clusters' PiN",
+          "Site Management - New",
+          "488",
+          "030",
+          "30"
+        ]
+      },
+      {
+        "name": "129",
+        "inferred_type": "text",
+        "sample_values": [
+          "Education New",
+          "6",
+          "5",
+          "060",
+          "651"
+        ]
+      },
+      {
+        "name": "290",
+        "inferred_type": "text",
+        "sample_values": [
+          "Food Security and Livlihoods New",
+          "225",
+          "931",
+          "19",
+          "14"
+        ]
+      },
+      {
+        "name": "5",
+        "inferred_type": "text",
+        "sample_values": [
+          "Health New",
+          "7",
+          "7",
+          "723",
+          "889"
+        ]
+      },
+      {
+        "name": "777",
+        "inferred_type": "text",
+        "sample_values": [
+          "Nutrition New",
+          "380",
+          "030",
+          "23",
+          "17"
+        ]
+      },
+      {
+        "name": "613",
+        "inferred_type": "text",
+        "sample_values": [
+          "Protection New",
+          "8",
+          "5",
+          "380",
+          "651"
+        ]
+      },
+      {
+        "name": "19",
+        "inferred_type": "text",
+        "sample_values": [
+          "CP New",
+          "434",
+          "022",
+          "28",
+          "20"
+        ]
+      },
+      {
+        "name": "078",
+        "inferred_type": "text",
+        "sample_values": [
+          "GBV New",
+          "960",
+          "2",
+          "390",
+          "172"
+        ]
+      },
+      {
+        "name": "606",
+        "inferred_type": "text",
+        "sample_values": [
+          "Mine Action New",
+          "7",
+          "287",
+          "6",
+          "4"
+        ]
+      },
+      {
+        "name": "14",
+        "inferred_type": "text",
+        "sample_values": [
+          "Shelter NFI New",
+          "161",
+          "4",
+          "083",
+          "592"
+        ]
+      },
+      {
+        "name": "630",
+        "inferred_type": "text",
+        "sample_values": [
+          "WASH New",
+          "-",
+          "826",
+          "21",
+          "10"
+        ]
+      },
+      {
+        "name": "240",
+        "inferred_type": "text",
+        "sample_values": [
+          "Absolute PiN Differences",
+          "PiN Difference for Site Management",
+          "4",
+          "-",
+          "303"
+        ]
+      },
+      {
+        "name": "14",
+        "inferred_type": "text",
+        "sample_values": [
+          "PiN Difference for Education",
+          "383",
+          "8",
+          "-",
+          "-"
+        ]
+      },
+      {
+        "name": "407",
+        "inferred_type": "text",
+        "sample_values": [
+          "Food Security and Livlihoods",
+          "10",
+          "649",
+          "3",
+          "5"
+        ]
+      },
+      {
+        "name": "859",
+        "inferred_type": "text",
+        "sample_values": [
+          "PiN Difference for Health",
+          "195",
+          "34",
+          "445",
+          "773"
+        ]
+      },
+      {
+        "name": "16",
+        "inferred_type": "text",
+        "sample_values": [
+          "PiN Difference for Nutrition",
+          "15",
+          "110",
+          "14",
+          "13"
+        ]
+      },
+      {
+        "name": "707",
+        "inferred_type": "text",
+        "sample_values": [
+          "PiN Difference for Protection",
+          "497",
+          "38",
+          "826",
+          "678"
+        ]
+      },
+      {
+        "name": "719",
+        "inferred_type": "text",
+        "sample_values": [
+          "PiN Difference CP",
+          "3",
+          "332",
+          "11",
+          "21"
+        ]
+      },
+      {
+        "name": "14",
+        "inferred_type": "text",
+        "sample_values": [
+          "PiN Difference GBV",
+          "406",
+          "8",
+          "260",
+          "696"
+        ]
+      },
+      {
+        "name": "235",
+        "inferred_type": "text",
+        "sample_values": [
+          "PiN Difference for Mine Action",
+          "10",
+          "424",
+          "4",
+          "4"
+        ]
+      },
+      {
+        "name": "515",
+        "inferred_type": "text",
+        "sample_values": [
+          "PiN Difference for Shelter NFI",
+          "076",
+          "24",
+          "263",
+          "768"
+        ]
+      },
+      {
+        "name": "37",
+        "inferred_type": "text",
+        "sample_values": [
+          "PiN Difference for WASH",
+          "-",
+          "574",
+          "12",
+          "8"
+        ]
+      },
+      {
+        "name": "181",
+        "inferred_type": "text",
+        "sample_values": [
+          "% PiN Differences",
+          "Site Management",
+          "-",
+          "104",
+          "464"
+        ]
+      },
+      {
+        "name": "152",
+        "inferred_type": "text",
+        "sample_values": [
+          "Education",
+          "-",
+          "-",
+          "983",
+          "171"
+        ]
+      },
+      {
+        "name": "3",
+        "inferred_type": "text",
+        "sample_values": [
+          "Food Security and Livlihoods2",
+          "4",
+          "1",
+          "-",
+          "-"
+        ]
+      },
+      {
+        "name": "975",
+        "inferred_type": "text",
+        "sample_values": [
+          "Health",
+          "836",
+          "-",
+          "24",
+          "-"
+        ]
+      },
+      {
+        "name": "351",
+        "inferred_type": "text",
+        "sample_values": [
+          "Nutrition",
+          "15",
+          "44",
+          "6",
+          "8"
+        ]
+      },
+      {
+        "name": "10",
+        "inferred_type": "text",
+        "sample_values": [
+          "Protection",
+          "497",
+          "861",
+          "307",
+          "549"
+        ]
+      },
+      {
+        "name": "154",
+        "inferred_type": "text",
+        "sample_values": [
+          "CP",
+          "14",
+          "21",
+          "314",
+          "466"
+        ]
+      },
+      {
+        "name": "358",
+        "inferred_type": "text",
+        "sample_values": [
+          "GBV",
+          "2",
+          "6",
+          "826",
+          "696"
+        ]
+      },
+      {
+        "name": "27",
+        "inferred_type": "text",
+        "sample_values": [
+          "Mine Action",
+          "485",
+          "841",
+          "17",
+          "874"
+        ]
+      },
+      {
+        "name": "817",
+        "inferred_type": "text",
+        "sample_values": [
+          "Shelter NFI",
+          "2",
+          "27",
+          "-2",
+          "1"
+        ]
+      },
+      {
+        "name": "072",
+        "inferred_type": "text",
+        "sample_values": [
+          "WASH2",
+          "731",
+          "000",
+          "567",
+          "234"
+        ]
+      },
+      {
+        "name": "20",
+        "inferred_type": "text",
+        "sample_values": [
+          "7",
+          "30",
+          "-8",
+          "-4",
+          "667"
+        ]
+      },
+      {
+        "name": "287",
+        "inferred_type": "text",
+        "sample_values": [
+          "591",
+          "800",
+          "821",
+          "174",
+          "85"
+        ]
+      },
+      {
+        "name": "608",
+        "inferred_type": "text",
+        "sample_values": [
+          "2",
+          "7",
+          "-13",
+          "2",
+          "020"
+        ]
+      },
+      {
+        "name": "8",
+        "inferred_type": "text",
+        "sample_values": [
+          "512",
+          "955",
+          "790",
+          "785",
+          "19"
+        ]
+      },
+      {
+        "name": "003",
+        "inferred_type": "text",
+        "sample_values": [
+          "588",
+          "17",
+          "1",
+          "3",
+          "535"
+        ]
+      },
+      {
+        "name": "960",
+        "inferred_type": "text",
+        "sample_values": [
+          "544",
+          "793",
+          "158",
+          "44",
+          "223"
+        ]
+      },
+      {
+        "name": "21",
+        "inferred_type": "text",
+        "sample_values": [
+          "-17",
+          "-9",
+          "565",
+          "441",
+          "23"
+        ]
+      },
+      {
+        "name": "580",
+        "inferred_type": "text",
+        "sample_values": [
+          "956",
+          "187",
+          "320",
+          "646",
+          "795"
+        ]
+      },
+      {
+        "name": "925",
+        "inferred_type": "text",
+        "sample_values": [
+          "3",
+          "-100%",
+          "80",
+          "-444",
+          "29"
+        ]
+      },
+      {
+        "name": "882",
+        "inferred_type": "text",
+        "sample_values": [
+          "876",
+          "0%",
+          "158",
+          "062",
+          "585"
+        ]
+      },
+      {
+        "name": "066",
+        "inferred_type": "text",
+        "sample_values": [
+          "8",
+          "40",
+          "22",
+          "49",
+          "-60%"
+        ]
+      },
+      {
+        "name": "-",
+        "inferred_type": "text",
+        "sample_values": [
+          "336",
+          "035",
+          "224",
+          "3",
+          "741"
+        ]
+      },
+      {
+        "name": "-",
+        "inferred_type": "text",
+        "sample_values": [
+          "-100%",
+          "-100%",
+          "-6",
+          "957",
+          "85"
+        ]
+      },
+      {
+        "name": "15",
+        "inferred_type": "text",
+        "sample_values": [
+          "130%",
+          "380%",
+          "477",
+          "11",
+          "014"
+        ]
+      },
+      {
+        "name": "047",
+        "inferred_type": "text",
+        "sample_values": [
+          "40%",
+          "380%",
+          "-100%",
+          "053",
+          "-100%"
+        ]
+      },
+      {
+        "name": "395",
+        "inferred_type": "text",
+        "sample_values": [
+          "100%",
+          "410%",
+          "-40%",
+          "-100%",
+          "510%"
+        ]
+      },
+      {
+        "name": "25",
+        "inferred_type": "text",
+        "sample_values": [
+          "280%",
+          "1700%",
+          "-40%",
+          "30%",
+          "440%"
+        ]
+      },
+      {
+        "name": "664",
+        "inferred_type": "text",
+        "sample_values": [
+          "10%",
+          "250%",
+          "-60%",
+          "-20%",
+          "750%"
+        ]
+      },
+      {
+        "name": "832",
+        "inferred_type": "text",
+        "sample_values": [
+          "-100%",
+          "-100%",
+          "70%",
+          "10%",
+          "2410%"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "-60%",
+          "200%",
+          "340%",
+          "150%",
+          "-60%"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "-100%",
+          "-50%",
+          "-100%",
+          "60%",
+          "-70%"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "400%",
+          "-100%",
+          "-100%",
+          "-100%",
+          "110%"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "120%",
+          "830%",
+          "830%",
+          "90%",
+          "-70%"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "0%",
+          "1330%",
+          "-100%",
+          "-100%",
+          "-100%"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "-30%",
+          "90%",
+          "750%",
+          "7120%",
+          "50%"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "100%",
+          "1350%",
+          "50%",
+          "30%",
+          "0%"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "160%",
+          "-40%",
+          "220%",
+          "10%",
+          "410%"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": [
+          "80%",
+          "-60%",
+          "750%",
+          "40%",
+          "120%"
+        ]
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      },
+      {
+        "name": "",
+        "inferred_type": "text",
+        "sample_values": []
+      }
+    ],
+    "last_built": "2026-08-28T14:26:14.317Z"
+  },
+  {
+    "id": "sudan_operational_presence_3w_data_january_june_2026",
+    "title": "Sudan - Operational Presence 3W Data January-June 2026",
+    "description": "Sudan 'Who's doing What Where' (3W) data for Jan–Jun 2026: one row per organization's operational presence in a given state/locality/cluster/month. Locations are plain state and locality names, not P-codes — this is the source that needs the geo crosswalk to join against P-coded sources.",
+    "keywords": [],
+    "source_file": "Sudan - Operational Presence 3W Data January-June 2026.xlsx",
+    "csv_path": "data/csv/sudan_operational_presence_3w_data_january_june_2026.csv",
+    "row_count": 7517,
+    "columns": [
+      {
+        "name": "Reporting Month",
+        "inferred_type": "date",
+        "sample_values": [
+          "2026-06",
+          "2026-06",
+          "2026-06",
+          "2026-06",
+          "2026-06"
+        ]
+      },
+      {
+        "name": "State",
+        "inferred_type": "text",
+        "sample_values": [
+          "Khartoum",
+          "Khartoum",
+          "Northern",
+          "White Nile",
+          "Blue Nile"
+        ]
+      },
+      {
+        "name": "Locality",
+        "inferred_type": "text",
+        "sample_values": [
+          "Bahri",
+          "Um Bada",
+          "Dongola",
+          "Aj Jabalain",
+          "Geisan"
+        ]
+      },
+      {
+        "name": "Cluster Name",
+        "inferred_type": "text",
+        "sample_values": [
+          "Health",
+          "Nutrition",
+          "Nutrition",
+          "Nutrition",
+          "Nutrition"
+        ]
+      },
+      {
+        "name": "Org name",
+        "inferred_type": "text",
+        "sample_values": [
+          "Medical Teams International",
+          "Medical Teams International",
+          "Building Foundation for Development",
+          "Plan International",
+          "Save the Children International"
+        ]
+      },
+      {
+        "name": "Org acronym",
+        "inferred_type": "text",
+        "sample_values": [
+          "MTI",
+          "MTI",
+          "BFD",
+          "PI",
+          "SCI"
+        ]
+      },
+      {
+        "name": "Org type",
+        "inferred_type": "text",
+        "sample_values": [
+          "INGO",
+          "INGO",
+          "NNGO",
+          "INGO",
+          "INGO"
+        ]
+      }
+    ],
+    "last_built": "2026-08-28T14:26:14.668Z"
+  },
+  {
+    "id": "sudan_views_conflict_forecasts",
+    "title": "Sudan - VIEWS conflict forecasts",
+    "description": "VIEWS (Violence Early-Warning System) monthly conflict fatality forecasts for Sudan, giving a predicted mean fatality count (main_mean) and a dichotomous conflict/no-conflict indicator (main_dich) per forecast month — this is projected/modeled data, not observed history.",
+    "keywords": [],
+    "source_file": "Sudan - VIEWS conflict forecasts.csv",
+    "csv_path": "data/csv/sudan_views_conflict_forecasts.csv",
+    "row_count": 36,
+    "columns": [
+      {
+        "name": "country_id",
+        "inferred_type": "number",
+        "sample_values": [
+          "245",
+          "245",
+          "245",
+          "245",
+          "245"
+        ]
+      },
+      {
+        "name": "month_id",
+        "inferred_type": "number",
+        "sample_values": [
+          "559",
+          "560",
+          "561",
+          "562",
+          "563"
+        ]
+      },
+      {
+        "name": "name",
+        "inferred_type": "text",
+        "sample_values": [
+          "Sudan",
+          "Sudan",
+          "Sudan",
+          "Sudan",
+          "Sudan"
+        ]
+      },
+      {
+        "name": "gwcode",
+        "inferred_type": "number",
+        "sample_values": [
+          "625",
+          "625",
+          "625",
+          "625",
+          "625"
+        ]
+      },
+      {
+        "name": "isoab",
+        "inferred_type": "text",
+        "sample_values": [
+          "SDN",
+          "SDN",
+          "SDN",
+          "SDN",
+          "SDN"
+        ]
+      },
+      {
+        "name": "year",
+        "inferred_type": "number",
+        "sample_values": [
+          "2026",
+          "2026",
+          "2026",
+          "2026",
+          "2026"
+        ]
+      },
+      {
+        "name": "month",
+        "inferred_type": "number",
+        "sample_values": [
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ]
+      },
+      {
+        "name": "main_mean",
+        "inferred_type": "number",
+        "sample_values": [
+          "241.864",
+          "198.3736",
+          "180.7416",
+          "174.4713",
+          "210.7505"
+        ]
+      },
+      {
+        "name": "main_dich",
+        "inferred_type": "number",
+        "sample_values": [
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "main_mean_ln",
+        "inferred_type": "number",
+        "sample_values": [
+          "5.4925",
+          "5.2952",
+          "5.2026",
+          "5.1675",
+          "5.3554"
+        ]
+      }
+    ],
+    "last_built": "2026-08-28T14:26:14.670Z"
+  },
+  {
+    "id": "sudan_geo_crosswalk",
+    "title": "sudan_geo_crosswalk",
+    "description": "TODO: describe what this dataset contains, its scope, and time period",
+    "keywords": [],
+    "source_file": "sudan_geo_crosswalk.csv",
+    "csv_path": "data/csv/sudan_geo_crosswalk.csv",
+    "row_count": 19,
+    "columns": [
+      {
+        "name": "admin1_name",
+        "inferred_type": "text",
+        "sample_values": [
+          "north kordofan",
+          "kassala",
+          "northern",
+          "east darfur",
+          "west darfur"
+        ]
+      },
+      {
+        "name": "admin1_pcode",
+        "inferred_type": "text",
+        "sample_values": [
+          "SD13",
+          "SD11",
+          "SD17",
+          "SD05",
+          "SD04"
+        ]
+      },
+      {
+        "name": "matched_source_name",
+        "inferred_type": "text",
+        "sample_values": [
+          "north kordofan",
+          "kassala",
+          "northern",
+          "east darfur",
+          "west darfur"
+        ]
+      },
+      {
+        "name": "needs_review",
+        "inferred_type": "text",
+        "sample_values": [
+          "false",
+          "false",
+          "false",
+          "false",
+          "false"
+        ]
+      }
+    ],
+    "last_built": "2026-08-28T14:26:14.671Z"
+  }
+]

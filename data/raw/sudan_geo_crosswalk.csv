@@ -1,0 +1,20 @@
+admin1_name,admin1_pcode,matched_source_name,needs_review
+north kordofan,SD13,north kordofan,false
+kassala,SD11,kassala,false
+northern,SD17,northern,false
+east darfur,SD05,east darfur,false
+west darfur,SD04,west darfur,false
+west kordofan,SD18,west kordofan,false
+blue nile,SD08,blue nile,false
+khartoum,SD01,khartoum,false
+river nile,SD16,river nile,false
+red sea,SD10,red sea,false
+north darfur,SD02,north darfur,false
+sennar,SD14,sennar,false
+central darfur,SD06,central darfur,false
+south kordofan,SD07,south kordofan,false
+aj jazirah,SD15,aj jazirah,false
+gedaref,SD12,gedaref,false
+south darfur,SD03,south darfur,false
+white nile,SD09,white nile,false
+Abyei PCA,,Abyei PCA,true

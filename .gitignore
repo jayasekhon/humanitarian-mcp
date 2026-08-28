@@ -1,9 +1,3 @@
 node_modules/
 dist/
 dist_test/
-
-# Data files - contains real humanitarian data / sample values.
-# Remove these lines if you've deliberately decided the repo should include them.
-data/raw/
-data/csv/
-data/catalog.json
