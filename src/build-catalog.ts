@@ -192,7 +192,10 @@ function main() {
     }
 
     // xlsx/xls
-    const wb = XLSX.readFile(fullPath);
+    // Note: XLSX.readFile() isn't reliably available via ESM import in Node —
+    // read the buffer ourselves and use XLSX.read(), which works either way.
+    const buf = fs.readFileSync(fullPath);
+    const wb = XLSX.read(buf, { type: "buffer" });
     // If any override names specific sheets, process only those; otherwise process ALL sheets
     const namedSheets = fileOverrides.filter((o) => o.sheet).map((o) => o.sheet!);
     const sheetsToProcess = namedSheets.length > 0 ? namedSheets : wb.SheetNames;
