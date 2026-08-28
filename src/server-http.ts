@@ -35,7 +35,9 @@ app.post("/mcp", async (req, res) => {
 
     transport = new StreamableHTTPServerTransport({
       sessionIdGenerator: () => randomUUID(),
-      onsessioninitialized: (id) => sessions.set(id, transport!),
+      onsessioninitialized: (id) => {
+        sessions.set(id, transport!);
+      },
     });
 
     transport.onclose = () => {
